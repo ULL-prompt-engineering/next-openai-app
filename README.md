@@ -29,8 +29,34 @@ To run the example locally you need to:
 1. Sign up at [OpenAI's Developer Platform](https://platform.openai.com/signup).
 2. Go to [OpenAI's dashboard](https://platform.openai.com/account/api-keys) and create an API KEY.
 3. Set the required OpenAI environment variable as the token value as shown [the example env file](./.env.local.example) but in a new file called `.env.local`
-4. `pnpm install` to install the required dependencies.
-5. `pnpm dev` to launch the development server.
+4. `npm install` to install the required dependencies.
+5. `npm run dev` to launch the development server.
+
+    ```
+    ➜  next-openai-app git:(main) pwd -P
+    /Users/casianorodriguezleon/campus-virtual/2223/learning/openai-learning/nextjs-openai-vercel/next-openai-app
+    ➜  next-openai-app git:(main) node --version
+    v20.5.0
+    ➜  next-openai-app git:(main) ✗ jq '.dependencies' package.json 
+    {
+    "ai": "2.2.27",
+    "next": "14.0.1",
+    "openai": "4.16.1",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0"
+    }
+    ➜  next-openai-app git:(main) npm run dev
+
+    > next-openai@0.0.0 dev
+    > next dev
+
+    ▲ Next.js 14.0.1
+    - Local:        http://localhost:3000
+    - Environments: .env.local
+
+    ✓ Ready in 3.8s
+    ```
+
 
 ## Learn More
 
