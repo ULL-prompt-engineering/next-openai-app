@@ -39,11 +39,11 @@ To run the example locally you need to:
     v20.5.0
     ➜  next-openai-app git:(main) ✗ jq '.dependencies' package.json 
     {
-    "ai": "2.2.27",
-    "next": "14.0.1",
-    "openai": "4.16.1",
-    "react": "18.2.0",
-    "react-dom": "^18.2.0"
+        "ai": "2.2.27",
+        "next": "14.0.1",
+        "openai": "4.16.1",
+        "react": "18.2.0",
+        "react-dom": "^18.2.0"
     }
     ➜  next-openai-app git:(main) npm run dev
 
@@ -56,6 +56,7 @@ To run the example locally you need to:
 
     ✓ Ready in 3.8s
     ```
+6. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
 ## Learn More
